@@ -1,12 +1,26 @@
+<h1 align="center"> Seasons App </h1>
+<h3 align="center"> An app which uses a Geolocation API to return whether it's winter or summer in your location</h3>
+
+<h3 align="center"> Tech Stack </h3>
+  <ul>
+    <li>Language - Javascript</li>
+    <li>Library - React</li>
+    <li>UI - Semantic-ui</li>
+    <li>API - Geolocation API</li>
+  </ul>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+<h3 align="center">Scripts</h3>
+
 
 In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.<br />
+npm start - Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
