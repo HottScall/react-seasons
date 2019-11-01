@@ -19,6 +19,14 @@ A functional component is just plain JS function which accepts props as an argum
 
 
 
+<h5 align="center">Rules of Class Based Components</h5>
+
+Must be a Javascript Class 
+Must extend (subclass) of React.Component
+Must define a render method that returns some form of JSX.
+
+
+
 
 
 
