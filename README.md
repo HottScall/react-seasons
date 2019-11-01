@@ -9,6 +9,17 @@
     <li>API - Geolocation API</li>
   </ul>
 
+<h3 align="center"> Learning Covered </h3>
+
+<h5 align="center">Difference between functional and class based components.</h5>
+
+A functional component is just plain JS function which accepts props as an argument and returns a React Element. E.g SeasonDisplay.js takes in seasonConfig, getSeason and seasonDisplay and then returns React elements by way of string interpolation. Config & Helper functions at the top of the file and the functional components at the bottom. 
+
+<h5 align="center">State</h5>
+
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
