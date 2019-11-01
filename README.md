@@ -1,4 +1,4 @@
-<h1 align="center"> Seasons App </h1>
+  <h1 align="center"> Seasons App </h1>
 <h3 align="center"> An app which uses a Geolocation API to return whether it's winter or summer in your location</h3>
 
 <h3 align="center"> Tech Stack </h3>
@@ -15,16 +15,24 @@
 
 A functional component is just plain JS function which accepts props as an argument and returns a React Element. E.g SeasonDisplay.js takes in seasonConfig, getSeason and seasonDisplay and then returns React elements by way of string interpolation. Config & Helper functions at the top of the file and the functional components at the bottom. 
 
-<h5 align="center">State</h5>
+<h5 align="center">Rules of State</h5>
 
-
+<ul>
+  <li>Only useable with Class Based Components (other than with hooks)</li>
+  <li>Don’t confuse props with state!</li>
+  <li>State is a JS object that contains data relevant to the component</li>
+  <li>Updating state on a component causes the component to (almost) instantly re-render.</li>
+  <li>State must be initialised when a component is created</li>
+  <li>State can only be updated using the function setState</li>
+</ul>
 
 <h5 align="center">Rules of Class Based Components</h5>
 
-Must be a Javascript Class 
-Must extend (subclass) of React.Component
-Must define a render method that returns some form of JSX.
-
+<ul>
+  <li>Must be a Javascript Class</li> 
+  <li>Must extend (subclass) of React.Component</li>
+  <li>Must define a render method that returns some form of JSX.</li>
+</ul>
 
 
 
