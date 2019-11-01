@@ -7,6 +7,7 @@
     <li>Library - React</li>
     <li>UI - Semantic-ui</li>
     <li>API - Geolocation API</li>
+    <li>Css Framework - Bootstrap</li>
   </ul>
 
 <h3 align="center"> Learning Covered </h3>
@@ -34,6 +35,17 @@ A functional component is just plain JS function which accepts props as an argum
   <li>Must define a render method that returns some form of JSX.</li>
 </ul>
 
+<h5 align="center">Component Lifecycle</h5>
+
+A list of the main life cycle methods used in React projects, these run in lineal order. Note: There are other lifycycle methods, but these are rarely used. 
+
+<ul>
+  <li>constructor function</li>
+  <li>render</li>
+  <li>componentDidMount (is called once when content is first rendered to the screen)</li>
+  <li>componentDidUpdate (sits and waits for updates)</li>
+  <li>componentWillUnmount (sits and waits until the component is no longer shown)</li>
+<ul>
 
 
 
